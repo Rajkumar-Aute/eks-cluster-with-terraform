@@ -9,9 +9,9 @@ vpc_cidr     = "10.0.0.0/16"
 # and uncomment the "New Versions" block, then run `terraform apply`.
 # =========================================================================
 
-# -------------------------------------------------------------------------
+
 # --- [ OLD VERSIONS ] (Start with these) ---
-# -------------------------------------------------------------------------
+
 
 # KUBERNETES & CORE CONTROLLERS
 cluster_version            = "1.29"
@@ -33,9 +33,9 @@ velero_version             = "5.3.0"
 # SERVICE MESH
 istio_version = "1.21.0"
 
-# -------------------------------------------------------------------------
+
 # --- [ NEW VERSIONS ] (Switch to these for upgrade practice) ---
-# -------------------------------------------------------------------------
+
 
 # KUBERNETES & CORE CONTROLLERS
 # cluster_version            = "1.30"

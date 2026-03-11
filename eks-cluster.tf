@@ -12,7 +12,9 @@ module "eks" {
   
   # cluster_version = data.external.latest_k8s_version.result.version
   cluster_version = var.cluster_version
-  
+  cluster_upgrade_policy = {
+    support_type = "STANDARD"
+  }
 
   # Networking
   vpc_id     = module.vpc.vpc_id
